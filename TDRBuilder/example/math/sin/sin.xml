@@ -1,0 +1,6 @@
+<?xml version = "1.0" ?><!-- /*Begin Test*/ --><module name = "Untitled" date = "Tue Mar 22 15:46:59 2005
+">
+<input>
+<variable type = "float" name = "iv1" initial_value = "0.000000e+000" final_value = "3.589793e-009"/>
+</input><global/>
+</module><!-- /*End Test*/ -->

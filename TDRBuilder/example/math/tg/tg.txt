@@ -1,0 +1,12 @@
+<<--/*Begin Test*/-->>
+[Module]
+Name=Untitled
+Time=Tue Mar 22 15:54:15 2005
+
+[Input Variables]
+	Type=float	Name=iv1	Initial Value=0.000000e+000	Final Value=-0.092560
+[End]
+[Global Variables]
+[End]
+[End of Module]
+<<--/*End Test*/-->>

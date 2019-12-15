@@ -1,0 +1,1667 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#include ""res\\VxBuilder.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#include ""afxprint.rc""       // printing/print preview resources\r\n"
+    "#include ""afxolesv.rc""       // OLE server resources\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_HAND2               CURSOR                  "res\\Hand.cur"
+IDC_DRAGPU              CURSOR                  "res\\Dgppu.CUR"
+IDC_DRAGLU              CURSOR                  "res\\Dglg.cur"
+IDC_DRAGLK              CURSOR                  "res\\Dglnk.cur"
+IDC_NODROP              CURSOR                  "res\\NoDrop.cur"
+IDC_CLSCUR              CURSOR                  "res\\class.cur"
+IDC_DOCCUR              CURSOR                  "res\\doc.cur"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\VxBuilder.ico"
+IDR_VxBuilderTYPE       ICON                    "res\\VxBuilderDoc.ico"
+IDR_VXMODULE            ICON                    "res\\module.ico"
+IDR_VXCLASS             ICON                    "res\\class.ico"
+IDI_PPU                 ICON                    "res\\ppu.ico"
+IDI_LOGIC               ICON                    "res\\logic.ico"
+IDI_LINK                ICON                    "res\\link.ICO"
+IDI_ARROW               ICON                    "res\\arrow.ico"
+IDI_CLSBLK              ICON                    "res\\clsicon.ico"
+IDI_LINK2               ICON                    "res\\lnk2.ico"
+IDI_SMD                 ICON                    "res\\smd.ico"
+IDI_DOCICO              ICON                    "res\\doc.ico"
+IDR_VXCLSFN             ICON                    "res\\clsfn.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME           BITMAP                  "res\\Toolbar.bmp"
+IDR_VxBuilderTYPE_SRVR_IP BITMAP                  "res\\IToolbar.bmp"
+IDR_MODULE_SRVR_IP      BITMAP                  "res\\IToolbar.bmp"
+IDR_CLASS_SRVR_IP       BITMAP                  "res\\IToolbar.bmp"
+IDR_MENUBMP             BITMAP                  "res\\menubmp.bmp"
+IDR_ARROW1              BITMAP                  "res\\arrow1.bmp"
+IDR_ARROW2              BITMAP                  "res\\arrow2.bmp"
+IDR_ARROW3              BITMAP                  "res\\arrow3.bmp"
+IDR_ARROW4              BITMAP                  "res\\arrow4.bmp"
+IDR_ARROW5              BITMAP                  "res\\arrow5.bmp"
+IDR_ARROW6              BITMAP                  "res\\arrow6.bmp"
+IDR_ARROW7              BITMAP                  "res\\arrow7.bmp"
+IDR_ARROW8              BITMAP                  "res\\arrow8.bmp"
+IDR_ARROW9              BITMAP                  "res\\arrow9.bmp"
+IDR_ARROW10             BITMAP                  "res\\arrow10.bmp"
+IDR_VXCLSFN             BITMAP                  "res\\FToolbar.bmp"
+IDB_ICOBMP1             BITMAP                  "res\\sample.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR  16, 16
+BEGIN
+    BUTTON      IDM_FILE_NEWMODULE
+    BUTTON      IDM_FILE_NEWCLASS
+    BUTTON      ID_FILE_OPEN
+    BUTTON      ID_FILE_SAVE
+    BUTTON      ID_FILE_PRINT
+    SEPARATOR
+    BUTTON      ID_EDIT_CUT
+    BUTTON      ID_EDIT_COPY
+    BUTTON      ID_EDIT_PASTE
+    SEPARATOR
+    BUTTON      IDM_VIEW_GRID
+    BUTTON      IDM_VIEW_SHADOW
+    BUTTON      IDM_VIEW_TOOLBOX
+    BUTTON      IDM_VIEW_VARIABLE
+    BUTTON      IDM_VIEW_OUTPUT
+    BUTTON      IDM_VIEW_TOOLTIPS
+    SEPARATOR
+    BUTTON      IDM_MODULE_COMPILE
+    BUTTON      IDM_MODULE_RUN
+    BUTTON      IDM_MODULE_STOP
+    BUTTON      IDM_MODULE_ANALYSE
+    SEPARATOR
+    BUTTON      ID_APP_ABOUT
+    BUTTON      ID_CONTEXT_HELP
+END
+
+IDR_VXCLSFN TOOLBAR  16, 16
+BEGIN
+    BUTTON      ID_FILE_PRINT
+    SEPARATOR
+    BUTTON      ID_EDIT_CUT
+    BUTTON      ID_EDIT_COPY
+    BUTTON      ID_EDIT_PASTE
+    SEPARATOR
+    BUTTON      IDM_VIEW_GRID
+    BUTTON      IDM_VIEW_SHADOW
+    BUTTON      IDM_VIEW_TOOLBOX
+    BUTTON      IDM_VIEW_VARIABLE
+    BUTTON      IDM_VIEW_OUTPUT
+    BUTTON      IDM_VIEW_TOOLTIPS
+    SEPARATOR
+    BUTTON      IDM_MODULE_COMPILE
+    BUTTON      IDM_MODULE_RUN
+    BUTTON      IDM_MODULE_STOP
+    BUTTON      IDM_MODULE_ANALYSE
+    SEPARATOR
+    BUTTON      ID_CONTEXT_HELP
+END
+
+IDR_VxBuilderTYPE_SRVR_IP TOOLBAR  16, 15
+BEGIN
+    BUTTON      ID_EDIT_CUT
+    BUTTON      ID_EDIT_COPY
+    BUTTON      ID_EDIT_PASTE
+    SEPARATOR
+    BUTTON      ID_APP_ABOUT
+    BUTTON      ID_CONTEXT_HELP
+END
+
+IDR_MODULE_SRVR_IP TOOLBAR  16, 15
+BEGIN
+    BUTTON      ID_EDIT_CUT
+    BUTTON      ID_EDIT_COPY
+    BUTTON      ID_EDIT_PASTE
+    SEPARATOR
+    BUTTON      ID_APP_ABOUT
+    BUTTON      ID_CONTEXT_HELP
+END
+
+IDR_CLASS_SRVR_IP TOOLBAR  16, 15
+BEGIN
+    BUTTON      ID_EDIT_CUT
+    BUTTON      ID_EDIT_COPY
+    BUTTON      ID_EDIT_PASTE
+    SEPARATOR
+    BUTTON      ID_APP_ABOUT
+    BUTTON      ID_CONTEXT_HELP
+END
+
+IDR_MENUBMP TOOLBAR  16, 16
+BEGIN
+    BUTTON      IDM_ARROW1
+    BUTTON      IDM_ARROW2
+    BUTTON      IDM_ARROW3
+    BUTTON      IDM_ARROW4
+    BUTTON      IDM_ARROW5
+    BUTTON      IDM_ARROW6
+    BUTTON      IDM_ARROW7
+    BUTTON      IDM_ARROW8
+    BUTTON      IDM_ARROW9
+    BUTTON      IDM_ARROW10
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "New &Module\tCtrl+M",         IDM_FILE_NEWMODULE
+        MENUITEM "&New Class\tCtrl+N",          IDM_FILE_NEWCLASS
+        MENUITEM "&Open...\tCtrl+O",            ID_FILE_OPEN
+        MENUITEM SEPARATOR
+        MENUITEM "P&rint Setup...",             ID_FILE_PRINT_SETUP
+        MENUITEM SEPARATOR
+        MENUITEM "Recent File",                 ID_FILE_MRU_FILE1, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "&Close",                      ID_FILE_CLOSE
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "&Toolbar",                    ID_VIEW_TOOLBAR
+        MENUITEM "&Status Bar",                 ID_VIEW_STATUS_BAR
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&Help Topics",                ID_HELP_FINDER
+        MENUITEM SEPARATOR
+        MENUITEM "&About TDRBuilder...",         ID_APP_ABOUT
+    END
+END
+
+IDR_VxBuilderTYPE MENU 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&New\tCtrl+N",                ID_FILE_NEW
+        MENUITEM "&Open...\tCtrl+O",            ID_FILE_OPEN
+        MENUITEM "&Close",                      ID_FILE_CLOSE
+        MENUITEM "&Save\tCtrl+S",               ID_FILE_SAVE
+        MENUITEM "Save &As...",                 ID_FILE_SAVE_AS
+        MENUITEM SEPARATOR
+        MENUITEM "&Print...\tCtrl+P",           ID_FILE_PRINT
+        MENUITEM "Print Pre&view",              ID_FILE_PRINT_PREVIEW
+        MENUITEM "P&rint Setup...",             ID_FILE_PRINT_SETUP
+        MENUITEM SEPARATOR
+        MENUITEM "Recent File",                 ID_FILE_MRU_FILE1, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "&Edit"
+    BEGIN
+        MENUITEM "&Undo\tCtrl+Z",               ID_EDIT_UNDO
+        MENUITEM SEPARATOR
+        MENUITEM "Cu&t\tCtrl+X",                ID_EDIT_CUT
+        MENUITEM "&Copy\tCtrl+C",               ID_EDIT_COPY
+        MENUITEM "&Paste\tCtrl+V",              ID_EDIT_PASTE
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "&Toolbar",                    ID_VIEW_TOOLBAR
+        MENUITEM "&Status Bar",                 ID_VIEW_STATUS_BAR
+        MENUITEM "Background &Grid",            IDM_VIEW_GRID
+        MENUITEM "&Block Shadow",               IDM_VIEW_SHADOW
+    END
+    POPUP "&Window"
+    BEGIN
+        MENUITEM "&New Window",                 ID_WINDOW_NEW
+        MENUITEM "&Cascade",                    ID_WINDOW_CASCADE
+        MENUITEM "&Tile",                       ID_WINDOW_TILE_HORZ
+        MENUITEM "&Arrange Icons",              ID_WINDOW_ARRANGE
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&Help Topics",                ID_HELP_FINDER
+        MENUITEM SEPARATOR
+        MENUITEM "&About TDRBuilder...",         ID_APP_ABOUT
+    END
+END
+
+IDR_VXMODULE MENU 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "New &Module\tCtrl+M",         IDM_FILE_NEWMODULE
+        MENUITEM "&New Class\tCtrl+N",          IDM_FILE_NEWCLASS
+        MENUITEM "&Open...\tCtrl+O",            ID_FILE_OPEN
+        MENUITEM "&Close",                      ID_FILE_CLOSE
+        MENUITEM "&Save\tCtrl+S",               ID_FILE_SAVE
+        MENUITEM "Save &As...",                 ID_FILE_SAVE_AS
+        MENUITEM SEPARATOR
+        MENUITEM "&Print...\tCtrl+P",           ID_FILE_PRINT
+        MENUITEM "Print Pre&view",              ID_FILE_PRINT_PREVIEW
+        MENUITEM "P&rint Setup...",             ID_FILE_PRINT_SETUP
+        MENUITEM SEPARATOR
+        MENUITEM "Recent File",                 ID_FILE_MRU_FILE1, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "&Edit"
+    BEGIN
+        MENUITEM "Cu&t\tCtrl+X",                ID_EDIT_CUT
+        MENUITEM "&Copy\tCtrl+C",               ID_EDIT_COPY
+        MENUITEM "Copy &Whole Module",          IDM_EDIT_COPYALL
+        MENUITEM "&Paste\tCtrl+V",              ID_EDIT_PASTE
+        MENUITEM "&Delete",                     IDM_EDIT_DELETE
+        MENUITEM SEPARATOR
+        MENUITEM "P&roperty",                   IDM_EDIT_PROPERTY
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "&Toolbar",                    ID_VIEW_TOOLBAR
+        MENUITEM "&Status Bar",                 ID_VIEW_STATUS_BAR
+        MENUITEM "Background &Grid",            IDM_VIEW_GRID
+        MENUITEM "&Block Shadow",               IDM_VIEW_SHADOW
+        MENUITEM SEPARATOR
+        MENUITEM "Toolbox &Panel",              IDM_VIEW_TOOLBOX
+        MENUITEM "&Variable Panel",             IDM_VIEW_VARIABLE
+        MENUITEM "Output",                      IDM_VIEW_OUTPUT
+        MENUITEM "Tooltip Display",             IDM_VIEW_TOOLTIPS
+    END
+    POPUP "&Module"
+    BEGIN
+        MENUITEM "&Compile\tCtrl+F6",           IDM_MODULE_COMPILE
+        MENUITEM "&Run Module\tCtrl+F5",        IDM_MODULE_RUN
+        MENUITEM "&Pause Module Operation\tF7", IDM_MODULE_PAUSE
+        MENUITEM "R&esume Module Operation\tCtrl+F7", IDM_MODULE_RESUME
+        MENUITEM "&Stop Module Operation\tShift+F5", IDM_MODULE_STOP
+        MENUITEM SEPARATOR
+        MENUITEM "&Analyze Module Step by Step\tF5", IDM_MODULE_ANALYSE
+        MENUITEM SEPARATOR
+        POPUP "Export Result"
+        BEGIN
+            MENUITEM "Export To Text File",         IDM_EXPORTTEXTRESULT
+            MENUITEM "Export To XML File",          IDM_EXPORTXMLRESULT
+            POPUP "Export To MS Office"
+            BEGIN
+                MENUITEM "Export To MS Excel File",     IDM_EXPORTEXCELESULT
+                MENUITEM "Export To MS Word File",      IDM_EXPORTWORDRESULT
+            END
+        END
+    END
+    POPUP "&Window"
+    BEGIN
+        MENUITEM "&New Window",                 ID_WINDOW_NEW
+        MENUITEM "&Cascade",                    ID_WINDOW_CASCADE
+        MENUITEM "&Tile",                       ID_WINDOW_TILE_HORZ
+        MENUITEM "&Arrange Icons",              ID_WINDOW_ARRANGE
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&Help Topics",                ID_HELP_FINDER
+        MENUITEM SEPARATOR
+        MENUITEM "&About TDRBuilder...",         ID_APP_ABOUT
+    END
+END
+
+IDR_VXCLASS MENU 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "New &Module\tCtrl+M",         IDM_FILE_NEWMODULE
+        MENUITEM "&New Class\tCtrl+N",          IDM_FILE_NEWCLASS
+        MENUITEM "&Open...\tCtrl+O",            ID_FILE_OPEN
+        MENUITEM "&Close",                      ID_FILE_CLOSE
+        MENUITEM "&Save\tCtrl+S",               ID_FILE_SAVE
+        MENUITEM "Save &As...",                 ID_FILE_SAVE_AS
+        MENUITEM SEPARATOR
+        MENUITEM "&Print...\tCtrl+P",           ID_FILE_PRINT
+        MENUITEM "Print Pre&view",              ID_FILE_PRINT_PREVIEW
+        MENUITEM "P&rint Setup...",             ID_FILE_PRINT_SETUP
+        MENUITEM SEPARATOR
+        MENUITEM "Recent File",                 ID_FILE_MRU_FILE1, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "&Edit"
+    BEGIN
+        MENUITEM "Cu&t\tCtrl+X",                ID_EDIT_CUT
+        MENUITEM "&Copy\tCtrl+C",               ID_EDIT_COPY
+        MENUITEM "&Paste\tCtrl+V",              ID_EDIT_PASTE
+        MENUITEM "&Delete",                     IDM_EDIT_DELETE
+        MENUITEM SEPARATOR
+        MENUITEM "P&roperty",                   IDM_EDIT_PROPERTY
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "&Toolbar",                    ID_VIEW_TOOLBAR
+        MENUITEM "&Status Bar",                 ID_VIEW_STATUS_BAR
+        MENUITEM "Background &Grid",            IDM_VIEW_GRID
+        MENUITEM "&Block Shadow",               IDM_VIEW_SHADOW
+    END
+    POPUP "&Window"
+    BEGIN
+        MENUITEM "&New Window",                 ID_WINDOW_NEW
+        MENUITEM "&Cascade",                    ID_WINDOW_CASCADE
+        MENUITEM "&Tile",                       ID_WINDOW_TILE_HORZ
+        MENUITEM "&Arrange Icons",              ID_WINDOW_ARRANGE
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&Help Topics",                ID_HELP_FINDER
+        MENUITEM SEPARATOR
+        MENUITEM "&About TDRBuilder...",         ID_APP_ABOUT
+    END
+END
+
+IDR_VXCLSFN MENU 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&Print...\tCtrl+P",           ID_FILE_PRINT
+        MENUITEM "Print Pre&view",              ID_FILE_PRINT_PREVIEW
+        MENUITEM "P&rint Setup...",             ID_FILE_PRINT_SETUP
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "&Edit"
+    BEGIN
+        MENUITEM "Cu&t\tCtrl+X",                ID_EDIT_CUT
+        MENUITEM "&Copy\tCtrl+C",               ID_EDIT_COPY
+        MENUITEM "&Paste\tCtrl+V",              ID_EDIT_PASTE
+        MENUITEM "&Delete",                     IDM_EDIT_DELETE
+        MENUITEM SEPARATOR
+        MENUITEM "P&roperty",                   IDM_EDIT_PROPERTY
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "&Toolbar",                    ID_VIEW_TOOLBAR
+        MENUITEM "Background &Grid",            IDM_VIEW_GRID
+        MENUITEM "&Block Shadow",               IDM_VIEW_SHADOW
+        MENUITEM SEPARATOR
+        MENUITEM "Toolbox &Panel",              IDM_VIEW_TOOLBOX
+        MENUITEM "&Variable Panel",             IDM_VIEW_VARIABLE
+        MENUITEM "Output",                      IDM_VIEW_OUTPUT
+        MENUITEM "Tooltip Display",             IDM_VIEW_TOOLTIPS
+    END
+    POPUP "&Function Module"
+    BEGIN
+        MENUITEM "&Compile\tCtrl+F6",           IDM_MODULE_COMPILE
+        MENUITEM "&Run Module\tCtrl+F5",        IDM_MODULE_RUN
+        MENUITEM "&Pause Function Module Operation\tF7", IDM_MODULE_PAUSE
+        MENUITEM "R&esume Function Module Operation\tCtrl+F7", 
+                                                IDM_MODULE_RESUME
+        MENUITEM "&Stop Function Module Operation\tShift+F5", 
+                                                IDM_MODULE_STOP
+        MENUITEM SEPARATOR
+        MENUITEM "&Analyze Function Module Step by Step\tF5", 
+                                                IDM_MODULE_ANALYSE
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&Help Topics",                ID_HELP_FINDER
+    END
+END
+
+IDR_VxBuilderTYPE_SRVR_EMB MENU 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&New\tCtrl+N",                ID_FILE_NEW
+        MENUITEM "&Open...\tCtrl+O",            ID_FILE_OPEN
+        MENUITEM "&Close",                      ID_FILE_CLOSE
+        MENUITEM "&Update\tCtrl+S",             ID_FILE_UPDATE
+        MENUITEM "Save Copy &As...",            ID_FILE_SAVE_COPY_AS
+        MENUITEM SEPARATOR
+        MENUITEM "&Print...\tCtrl+P",           ID_FILE_PRINT
+        MENUITEM "Print Pre&view",              ID_FILE_PRINT_PREVIEW
+        MENUITEM "P&rint Setup...",             ID_FILE_PRINT_SETUP
+        MENUITEM SEPARATOR
+        MENUITEM "Recent File",                 ID_FILE_MRU_FILE1, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "&Edit"
+    BEGIN
+        MENUITEM "&Undo\tCtrl+Z",               ID_EDIT_UNDO
+        MENUITEM SEPARATOR
+        MENUITEM "Cu&t\tCtrl+X",                ID_EDIT_CUT
+        MENUITEM "&Copy\tCtrl+C",               ID_EDIT_COPY
+        MENUITEM "&Paste\tCtrl+V",              ID_EDIT_PASTE
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "&Toolbar",                    ID_VIEW_TOOLBAR
+        MENUITEM "&Status Bar",                 ID_VIEW_STATUS_BAR
+        MENUITEM "Background &Grid",            IDM_VIEW_GRID
+        MENUITEM "&Block Shadow",               IDM_VIEW_SHADOW
+    END
+    POPUP "&Window"
+    BEGIN
+        MENUITEM "&New Window",                 ID_WINDOW_NEW
+        MENUITEM "&Cascade",                    ID_WINDOW_CASCADE
+        MENUITEM "&Tile",                       ID_WINDOW_TILE_HORZ
+        MENUITEM "&Arrange Icons",              ID_WINDOW_ARRANGE
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&Help Topics",                ID_HELP_FINDER
+        MENUITEM SEPARATOR
+        MENUITEM "&About TDRBuilder...",         ID_APP_ABOUT
+    END
+END
+
+IDR_MODULE_SRVR_EMB MENU 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "New &Module\tCtrl+M",         IDM_FILE_NEWMODULE
+        MENUITEM "&Open...\tCtrl+O",            ID_FILE_OPEN
+        MENUITEM "&Close",                      ID_FILE_CLOSE
+        MENUITEM "&Update\tCtrl+S",             ID_FILE_UPDATE
+        MENUITEM "Save Copy &As...",            ID_FILE_SAVE_COPY_AS
+        MENUITEM SEPARATOR
+        MENUITEM "&Print...\tCtrl+P",           ID_FILE_PRINT
+        MENUITEM "Print Pre&view",              ID_FILE_PRINT_PREVIEW
+        MENUITEM "P&rint Setup...",             ID_FILE_PRINT_SETUP
+        MENUITEM SEPARATOR
+        MENUITEM "Recent File",                 ID_FILE_MRU_FILE1, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "&Edit"
+    BEGIN
+        MENUITEM "&Undo\tCtrl+Z",               ID_EDIT_UNDO
+        MENUITEM SEPARATOR
+        MENUITEM "Cu&t\tCtrl+X",                ID_EDIT_CUT
+        MENUITEM "&Copy\tCtrl+C",               ID_EDIT_COPY
+        MENUITEM "&Paste\tCtrl+V",              ID_EDIT_PASTE
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "&Toolbar",                    ID_VIEW_TOOLBAR
+        MENUITEM "&Status Bar",                 ID_VIEW_STATUS_BAR
+        MENUITEM "Background &Grid",            IDM_VIEW_GRID
+        MENUITEM "&Block Shadow",               IDM_VIEW_SHADOW
+    END
+    POPUP "&Window"
+    BEGIN
+        MENUITEM "&New Window",                 ID_WINDOW_NEW
+        MENUITEM "&Cascade",                    ID_WINDOW_CASCADE
+        MENUITEM "&Tile",                       ID_WINDOW_TILE_HORZ
+        MENUITEM "&Arrange Icons",              ID_WINDOW_ARRANGE
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&Help Topics",                ID_HELP_FINDER
+        MENUITEM SEPARATOR
+        MENUITEM "&About TDRBuilder...",         ID_APP_ABOUT
+    END
+END
+
+IDR_CLASS_SRVR_EMB MENU 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&New Class\tCtrl+N",          IDM_FILE_NEWCLASS
+        MENUITEM "&Open...\tCtrl+O",            ID_FILE_OPEN
+        MENUITEM "&Close",                      ID_FILE_CLOSE
+        MENUITEM "&Update\tCtrl+S",             ID_FILE_UPDATE
+        MENUITEM "Save Copy &As...",            ID_FILE_SAVE_COPY_AS
+        MENUITEM SEPARATOR
+        MENUITEM "&Print...\tCtrl+P",           ID_FILE_PRINT
+        MENUITEM "Print Pre&view",              ID_FILE_PRINT_PREVIEW
+        MENUITEM "P&rint Setup...",             ID_FILE_PRINT_SETUP
+        MENUITEM SEPARATOR
+        MENUITEM "Recent File",                 ID_FILE_MRU_FILE1, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "&Edit"
+    BEGIN
+        MENUITEM "&Undo\tCtrl+Z",               ID_EDIT_UNDO
+        MENUITEM SEPARATOR
+        MENUITEM "Cu&t\tCtrl+X",                ID_EDIT_CUT
+        MENUITEM "&Copy\tCtrl+C",               ID_EDIT_COPY
+        MENUITEM "&Paste\tCtrl+V",              ID_EDIT_PASTE
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "&Toolbar",                    ID_VIEW_TOOLBAR
+        MENUITEM "&Status Bar",                 ID_VIEW_STATUS_BAR
+        MENUITEM "Background &Grid",            IDM_VIEW_GRID
+        MENUITEM "&Block Shadow",               IDM_VIEW_SHADOW
+    END
+    POPUP "&Window"
+    BEGIN
+        MENUITEM "&New Window",                 ID_WINDOW_NEW
+        MENUITEM "&Cascade",                    ID_WINDOW_CASCADE
+        MENUITEM "&Tile",                       ID_WINDOW_TILE_HORZ
+        MENUITEM "&Arrange Icons",              ID_WINDOW_ARRANGE
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&Help Topics",                ID_HELP_FINDER
+        MENUITEM SEPARATOR
+        MENUITEM "&About TDRBuilder...",         ID_APP_ABOUT
+    END
+END
+
+IDR_VxBuilderTYPE_SRVR_IP MENU 
+BEGIN
+    POPUP "&Edit"
+    BEGIN
+        MENUITEM "&Undo\tCtrl+Z",               ID_EDIT_UNDO
+        MENUITEM SEPARATOR
+        MENUITEM "Cu&t\tCtrl+X",                ID_EDIT_CUT
+        MENUITEM "&Copy\tCtrl+C",               ID_EDIT_COPY
+        MENUITEM "&Paste\tCtrl+V",              ID_EDIT_PASTE
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "&Toolbar",                    ID_VIEW_TOOLBAR
+        MENUITEM "Background &Grid",            IDM_VIEW_GRID
+        MENUITEM "&Block Shadow",               IDM_VIEW_SHADOW
+    END
+    MENUITEM SEPARATOR
+    MENUITEM SEPARATOR
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&Help Topics",                ID_HELP_FINDER
+        MENUITEM SEPARATOR
+        MENUITEM "&About TDRBuilder...",         ID_APP_ABOUT
+    END
+END
+
+IDR_MODULE_SRVR_IP MENU 
+BEGIN
+    POPUP "&Edit"
+    BEGIN
+        MENUITEM "&Undo\tCtrl+Z",               ID_EDIT_UNDO
+        MENUITEM SEPARATOR
+        MENUITEM "Cu&t\tCtrl+X",                ID_EDIT_CUT
+        MENUITEM "&Copy\tCtrl+C",               ID_EDIT_COPY
+        MENUITEM "&Paste\tCtrl+V",              ID_EDIT_PASTE
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "&Toolbar",                    ID_VIEW_TOOLBAR
+        MENUITEM "Background &Grid",            IDM_VIEW_GRID
+        MENUITEM "&Block Shadow",               IDM_VIEW_SHADOW
+    END
+    MENUITEM SEPARATOR
+    MENUITEM SEPARATOR
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&Help Topics",                ID_HELP_FINDER
+        MENUITEM SEPARATOR
+        MENUITEM "&About TDRBuilder...",         ID_APP_ABOUT
+    END
+END
+
+IDR_CLASS_SRVR_IP MENU 
+BEGIN
+    POPUP "&Edit"
+    BEGIN
+        MENUITEM "&Undo\tCtrl+Z",               ID_EDIT_UNDO
+        MENUITEM SEPARATOR
+        MENUITEM "Cu&t\tCtrl+X",                ID_EDIT_CUT
+        MENUITEM "&Copy\tCtrl+C",               ID_EDIT_COPY
+        MENUITEM "&Paste\tCtrl+V",              ID_EDIT_PASTE
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "&Toolbar",                    ID_VIEW_TOOLBAR
+        MENUITEM "Background &Grid",            IDM_VIEW_GRID
+        MENUITEM "&Block Shadow",               IDM_VIEW_SHADOW
+    END
+    MENUITEM SEPARATOR
+    MENUITEM SEPARATOR
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&Help Topics",                ID_HELP_FINDER
+        MENUITEM SEPARATOR
+        MENUITEM "&About TDRBuilder...",         ID_APP_ABOUT
+    END
+END
+
+32773 MENU 
+BEGIN
+    POPUP "Menu"
+    BEGIN
+        MENUITEM "Arrow 1",                     IDM_ARROW1
+        MENUITEM "Arrow 2",                     IDM_ARROW2
+        MENUITEM "Arrow 3",                     IDM_ARROW3
+        MENUITEM "Arrow 4",                     IDM_ARROW4
+        MENUITEM "Arrow 5",                     IDM_ARROW5
+        MENUITEM "Arrow 6",                     IDM_ARROW6
+        MENUITEM "Arrow 7",                     IDM_ARROW7
+        MENUITEM "Arrow 8",                     IDM_ARROW8
+        MENUITEM "Arrow 9",                     IDM_ARROW9
+        MENUITEM "Arrow 10",                    IDM_ARROW10
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS 
+BEGIN
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL
+    "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL
+    "P",            ID_FILE_PRINT,          VIRTKEY, CONTROL
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY 
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT
+    VK_F1,          ID_CONTEXT_HELP,        VIRTKEY, SHIFT
+    VK_F1,          ID_HELP,                VIRTKEY 
+END
+
+IDR_VxBuilderTYPE_SRVR_IP ACCELERATORS 
+BEGIN
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT
+    VK_F1,          ID_CONTEXT_HELP,        VIRTKEY, SHIFT
+    VK_F1,          ID_HELP,                VIRTKEY 
+    VK_ESCAPE,      ID_CANCEL_EDIT_SRVR,    VIRTKEY, NOINVERT
+END
+
+IDR_MODULE_SRVR_IP ACCELERATORS 
+BEGIN
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT
+    VK_F1,          ID_CONTEXT_HELP,        VIRTKEY, SHIFT
+    VK_F1,          ID_HELP,                VIRTKEY 
+    VK_ESCAPE,      ID_CANCEL_EDIT_SRVR,    VIRTKEY, NOINVERT
+END
+
+IDR_CLASS_SRVR_IP ACCELERATORS 
+BEGIN
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT
+    VK_F1,          ID_CONTEXT_HELP,        VIRTKEY, SHIFT
+    VK_F1,          ID_HELP,                VIRTKEY 
+    VK_ESCAPE,      ID_CANCEL_EDIT_SRVR,    VIRTKEY, NOINVERT
+END
+
+IDR_VxBuilderTYPE_SRVR_EMB ACCELERATORS 
+BEGIN
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL
+    "S",            ID_FILE_UPDATE,         VIRTKEY, CONTROL
+    "P",            ID_FILE_PRINT,          VIRTKEY, CONTROL
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY 
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT
+    VK_F1,          ID_CONTEXT_HELP,        VIRTKEY, SHIFT
+    VK_F1,          ID_HELP,                VIRTKEY 
+END
+
+IDR_MODULE_SRVR_EMB ACCELERATORS 
+BEGIN
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL
+    "S",            ID_FILE_UPDATE,         VIRTKEY, CONTROL
+    "P",            ID_FILE_PRINT,          VIRTKEY, CONTROL
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY 
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT
+    VK_F1,          ID_CONTEXT_HELP,        VIRTKEY, SHIFT
+    VK_F1,          ID_HELP,                VIRTKEY 
+END
+
+IDR_CLASS_SRVR_EMB ACCELERATORS 
+BEGIN
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL
+    "S",            ID_FILE_UPDATE,         VIRTKEY, CONTROL
+    "P",            ID_FILE_PRINT,          VIRTKEY, CONTROL
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY 
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT
+    VK_F1,          ID_CONTEXT_HELP,        VIRTKEY, SHIFT
+    VK_F1,          ID_HELP,                VIRTKEY 
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_PUTOOL DIALOGEX 0, 0, 83, 75
+STYLE DS_SETFONT | WS_CHILD | WS_VISIBLE
+EXSTYLE WS_EX_TOOLWINDOW
+FONT 8, "Microsoft Sans Serif", 400, 0, 0x0
+BEGIN
+    PUSHBUTTON      "Process Block",IDC_BTNPPU,0,4,68,14
+    PUSHBUTTON      "Logic Decision",IDC_BTNLPU,0,19,68,14
+    PUSHBUTTON      "Connector",IDC_BTNLINK,0,34,68,14
+    PUSHBUTTON      "Comment",IDC_BTNDOC,0,49,68,14
+    PUSHBUTTON      "Class",IDC_BTNCLS,0,4,68,14
+    PUSHBUTTON      "Generator",IDC_BTNCLSLINK,0,19,68,14
+    PUSHBUTTON      "Comment",IDC_BTNCLSDOC,0,34,68,14
+    PUSHBUTTON      "Sub-Module",IDC_BTNSMD,0,64,68,14
+END
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 235, 55
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "About TDRBuilder"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "TDRBuilder Version 2.0",IDC_STATIC,40,10,119,8,
+                    SS_NOPREFIX
+    LTEXT           "Copyright (C) 2005 XVsys",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "OK",IDOK,178,7,50,16,WS_GROUP
+END
+
+IDD_OUTPUT DIALOGEX 0, 0, 237, 86
+STYLE DS_SETFONT | WS_CHILD | WS_VISIBLE
+EXSTYLE WS_EX_TOOLWINDOW
+FONT 8, "Microsoft Sans Serif", 400, 0, 0x0
+BEGIN
+    LISTBOX         IDC_LISTOUTPUT,7,6,221,69,LBS_MULTIPLESEL | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL
+END
+
+IDD_VARPANEL DIALOGEX 0, 0, 237, 86
+STYLE DS_SETFONT | WS_CHILD | WS_VISIBLE
+EXSTYLE WS_EX_TOOLWINDOW
+FONT 8, "Microsoft Sans Serif", 400, 0, 0x0
+BEGIN
+    CONTROL         "",IDC_VARLIST,"SysListView32",LVS_REPORT | 
+                    LVS_ALIGNLEFT | WS_BORDER,7,6,221,73
+END
+
+IDD_DLGPARAM DIALOGEX 0, 0, 266, 319
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Edit Module Parameters"
+FONT 8, "Microsoft Sans Serif", 400, 0, 0x1
+BEGIN
+    GROUPBOX        "Input Parameters",IDC_STATIC,5,5,257,94
+    CONTROL         "",IDC_LISTINPUT,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_ALIGNLEFT | 
+                    WS_BORDER | WS_TABSTOP,15,16,179,76
+    PUSHBUTTON      "New",IDC_BTNADD,204,16,50,14
+    PUSHBUTTON      "Edit",IDC_BTNEDIT,204,35,50,14
+    PUSHBUTTON      "Delete",IDC_BTNDEL,204,54,50,14
+    GROUPBOX        "Input/Output Parameters",IDC_STATIC,5,104,257,94
+    CONTROL         "",IDC_LISTBOTH,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_ALIGNLEFT | 
+                    WS_BORDER | WS_TABSTOP,15,115,179,76
+    PUSHBUTTON      "New",IDC_BTNADD2,204,115,50,14
+    PUSHBUTTON      "Edit",IDC_BTNEDIT2,204,135,50,14
+    PUSHBUTTON      "Delete",IDC_BTNDEL2,204,155,50,14
+    GROUPBOX        "Output Parameters",IDC_STATIC,5,203,257,94
+    CONTROL         "",IDC_LISTOUTPUT2,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_ALIGNLEFT | 
+                    WS_BORDER | WS_TABSTOP,15,214,179,76
+    PUSHBUTTON      "New",IDC_BTNADD3,204,214,50,14
+    PUSHBUTTON      "Edit",IDC_BTNEDIT3,204,233,50,14
+    PUSHBUTTON      "Delete",IDC_BTNDEL3,204,254,50,14
+    PUSHBUTTON      "Close",IDOK,212,302,50,14
+END
+
+IDD_DLGLOCALVARS DIALOGEX 0, 0, 266, 170
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Edit Module Local Variables"
+FONT 8, "Microsoft Sans Serif", 400, 0, 0x1
+BEGIN
+    GROUPBOX        "Local Variables",IDC_STATIC,5,5,257,140
+    CONTROL         "",IDC_LISTLOCAL,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_ALIGNLEFT | 
+                    WS_BORDER | WS_TABSTOP,15,16,179,123
+    PUSHBUTTON      "New",IDC_BTNADD,204,16,50,14
+    PUSHBUTTON      "Edit",IDC_BTNEDIT,204,35,50,14
+    PUSHBUTTON      "Delete",IDC_BTNDEL,204,54,50,14
+    PUSHBUTTON      "Close",IDOK,212,152,50,14
+END
+
+IDD_DLGDTYPESEL DIALOGEX 0, 0, 186, 77
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Data Type Selection"
+FONT 8, "Microsoft Sans Serif", 400, 0, 0x1
+BEGIN
+    CONTROL         "Built-In Data Type",IDC_BTNDATA,"Button",
+                    BS_AUTORADIOBUTTON,23,15,104,10
+    CONTROL         "Class",IDC_BTNCLASS,"Button",BS_AUTORADIOBUTTON,23,30,
+                    123,10
+    PUSHBUTTON      "OK",IDOK,129,57,50,14
+END
+
+IDD_DLGVARIABLE DIALOGEX 0, 0, 212, 250
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Variable Property"
+FONT 8, "Microsoft Sans Serif", 400, 0, 0x1
+BEGIN
+    LTEXT           "Parameter Name:",IDC_TEXTNAME,8,5,65,8
+    EDITTEXT        IDC_EDITNAME,7,14,123,14,ES_AUTOHSCROLL
+    LTEXT           "Parameter Type:",IDC_TEXTTYPE,7,34,65,8
+    COMBOBOX        IDC_CMBTYPE,7,43,123,130,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    LTEXT           "Parameter Default Value:",IDC_STATICVDV,7,61,101,8
+    EDITTEXT        IDC_EDITVALUE,7,71,123,14,ES_AUTOHSCROLL
+    LTEXT           "Array Size:",IDC_ARRAYSIZE,7,90,104,8
+    EDITTEXT        IDC_EDITARYSIZE,7,99,123,14,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "Array Element Type:",IDC_STATICAET,8,119,101,8
+    COMBOBOX        IDC_CMBAETYPE,7,128,123,130,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Array Element Default Value:",IDC_ARRAYDEFVALUE,8,147,
+                    101,8
+    CONTROL         "",IDC_LISTAEVAL,"SysListView32",LVS_REPORT | 
+                    LVS_SHOWSELALWAYS | LVS_ALIGNLEFT | WS_BORDER | 
+                    WS_TABSTOP,8,156,123,90
+    PUSHBUTTON      "Update Array",IDC_UPDATE,149,99,50,14
+    PUSHBUTTON      "Set Vaue",IDC_SETVALUE,149,127,50,14
+    PUSHBUTTON      "Clean",IDC_BTNCLEAN,149,156,50,14
+    PUSHBUTTON      "OK",IDOK,149,53,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,149,70,50,14
+END
+
+IDD_DLGEDITLG DIALOGEX 0, 0, 256, 173
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Edit Logical Condition"
+FONT 8, "Microsoft Sans Serif", 400, 0, 0x1
+BEGIN
+    LTEXT           "Processor Name:",IDC_STATIC,7,11,57,8
+    EDITTEXT        IDC_EDITNAME,67,9,118,14,ES_AUTOHSCROLL
+    LTEXT           "Logical Comparisons:",IDC_STATIC,8,30,94,8
+    CONTROL         "",IDC_LISTLGCMP,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_ALIGNLEFT | 
+                    WS_BORDER | WS_TABSTOP,6,43,179,119
+    PUSHBUTTON      "New",IDC_BTNADD,199,43,50,14
+    PUSHBUTTON      "Edit",IDC_BTNEDIT,199,62,50,14
+    PUSHBUTTON      "Delete",IDC_BTNDEL,199,81,50,14
+    PUSHBUTTON      "Close",IDOK,199,147,50,14
+END
+
+IDD_DLGCMPEDIT2 DIALOGEX 0, 0, 266, 263
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Comparison Edit"
+FONT 8, "Microsoft Sans Serif", 400, 0, 0x1
+BEGIN
+    LTEXT           "Left Variable/Constant:",IDC_STATIC,8,5,74,8
+    EDITTEXT        IDC_EDITLSIDE,7,16,84,14,ES_AUTOHSCROLL
+    LTEXT           "Logical Comparison:",IDC_STATIC,100,5,65,8
+    COMBOBOX        IDC_CMBPRECNDT,99,16,64,130,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Right Variable/Constant:",IDC_STATIC,171,5,79,8
+    EDITTEXT        IDC_EDITRSIDE,170,16,88,14,ES_AUTOHSCROLL
+    LTEXT           "Pre-Relation:",IDC_STATIC,99,33,44,8
+    COMBOBOX        IDC_CMBLGCMP,99,44,64,130,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    LTEXT           "Input Parameter List:",IDC_STATIC,4,65,79,8
+    CONTROL         "",IDC_INPUTLIST,"SysListView32",LVS_REPORT | 
+                    LVS_SHOWSELALWAYS | LVS_SHAREIMAGELISTS | LVS_ALIGNLEFT | 
+                    WS_BORDER | WS_TABSTOP,4,76,125,50
+    LTEXT           "Input/Output Parameter List:",IDC_STATIC,4,130,99,8
+    CONTROL         "",IDC_GLOBALLIST,"SysListView32",LVS_REPORT | 
+                    LVS_SHOWSELALWAYS | LVS_SHAREIMAGELISTS | LVS_ALIGNLEFT | 
+                    WS_BORDER | WS_TABSTOP,4,141,125,50
+    LTEXT           "Output Parameter List:",IDC_STATIC,135,65,99,8
+    CONTROL         "",IDC_OUTPUTLIST,"SysListView32",LVS_REPORT | 
+                    LVS_SHOWSELALWAYS | LVS_SHAREIMAGELISTS | LVS_ALIGNLEFT | 
+                    WS_BORDER | WS_TABSTOP,135,76,125,50
+    LTEXT           "Local Variable List:",IDC_STATIC,135,130,99,8
+    CONTROL         "",IDC_LOCALLIST,"SysListView32",LVS_REPORT | 
+                    LVS_SHOWSELALWAYS | LVS_SHAREIMAGELISTS | LVS_ALIGNLEFT | 
+                    WS_BORDER | WS_TABSTOP,135,141,125,50
+    LTEXT           "Boolean Constant:",IDC_STATIC,5,194,65,8
+    CONTROL         "",IDC_BOOLLIST,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_ALIGNLEFT | 
+                    WS_BORDER | WS_TABSTOP,4,205,126,32
+    PUSHBUTTON      "Add To Left",IDC_BTNADDLEFT,142,213,50,14
+    PUSHBUTTON      "Add To Right",IDC_BTNADDRIGHT,195,213,53,14
+    PUSHBUTTON      "Help",IDC_BTNHELP,105,243,50,14,NOT WS_VISIBLE
+    PUSHBUTTON      "OK",IDOK,157,243,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,211,243,50,14
+END
+
+IDD_DLGEDITPU DIALOGEX 0, 0, 256, 173
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Edit Processor"
+FONT 8, "Microsoft Sans Serif", 400, 0, 0x1
+BEGIN
+    LTEXT           "Processor Name:",IDC_STATIC,7,11,57,8
+    EDITTEXT        IDC_EDITNAME,67,9,118,14,ES_AUTOHSCROLL
+    LTEXT           "Equations:",IDC_STATIC,6,30,65,8
+    CONTROL         "",IDC_LISTEQUAT,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_ALIGNLEFT | 
+                    WS_BORDER | WS_TABSTOP,6,41,179,121
+    PUSHBUTTON      "Edit",IDC_BTNEDIT,199,60,50,14
+    PUSHBUTTON      "Delete",IDC_BTNDEL,199,79,50,14
+    PUSHBUTTON      "Close",IDOK,199,148,50,14
+END
+
+IDD_DLGEQEDIT2 DIALOGEX 0, 0, 308, 318
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Equation Edit"
+FONT 8, "Microsoft Sans Serif", 400, 0, 0x1
+BEGIN
+    LTEXT           "Left Variable:",IDC_STATIC,8,5,65,8
+    EDITTEXT        IDC_EDITLVAR,4,16,51,14,ES_AUTOHSCROLL
+    LTEXT           "=",IDC_STATIC,59,18,8,8
+    LTEXT           "Right Expression:",IDC_STATIC,68,5,65,8
+    EDITTEXT        IDC_EDITEQ,68,16,237,14,ES_AUTOHSCROLL
+    LTEXT           "Input Parameter List:",IDC_STATIC,4,38,62,8
+    CONTROL         "",IDC_INPUTLIST,"SysListView32",LVS_REPORT | 
+                    LVS_SHOWSELALWAYS | LVS_SHAREIMAGELISTS | LVS_ALIGNLEFT | 
+                    WS_BORDER | WS_TABSTOP,4,49,125,50
+    LTEXT           "Input/Output Parameter List:",IDC_STATIC,4,103,99,8
+    CONTROL         "",IDC_GLOBALLIST,"SysListView32",LVS_REPORT | 
+                    LVS_SHOWSELALWAYS | LVS_SHAREIMAGELISTS | LVS_ALIGNLEFT | 
+                    WS_BORDER | WS_TABSTOP,4,114,125,50
+    LTEXT           "Output Parameter List:",IDC_STATIC,4,168,99,8
+    CONTROL         "",IDC_OUTPUTLIST,"SysListView32",LVS_REPORT | 
+                    LVS_SHOWSELALWAYS | LVS_SHAREIMAGELISTS | LVS_ALIGNLEFT | 
+                    WS_BORDER | WS_TABSTOP,4,179,125,50
+    LTEXT           "Local Variable List:",IDC_STATIC,4,233,99,8
+    CONTROL         "",IDC_LOCALLIST,"SysListView32",LVS_REPORT | 
+                    LVS_SHOWSELALWAYS | LVS_SHAREIMAGELISTS | LVS_ALIGNLEFT | 
+                    WS_BORDER | WS_TABSTOP,4,244,125,50
+    LTEXT           "Operator List:",IDC_STATIC,133,38,65,8
+    CONTROL         "",IDC_OPERATORLIST,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_ALIGNLEFT | 
+                    WS_BORDER | WS_TABSTOP,134,49,171,223
+    PUSHBUTTON      "Add To Left",IDC_BTNADDLEFT,4,299,50,14
+    PUSHBUTTON      "Add To Right",IDC_BTNADDRIGHT,76,299,53,14
+    PUSHBUTTON      "Add To Right Expression",IDC_BTNADDOPER,218,278,87,14
+    PUSHBUTTON      "Help",IDC_BTNHELP,140,299,50,14,NOT WS_VISIBLE
+    PUSHBUTTON      "OK",IDOK,198,299,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,255,299,50,14
+END
+
+IDD_DLGCPUMAP DIALOGEX 0, 0, 266, 278
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Sub-Moudle Information Editor"
+FONT 8, "Microsoft Sans Serif", 400, 0, 0x1
+BEGIN
+    LTEXT           "Processor Name:",IDC_STATIC,4,9,57,8
+    EDITTEXT        IDC_EDITNAME2,72,7,120,14,ES_AUTOHSCROLL
+    LTEXT           "Sub-Module Name:",IDC_STATIC,4,29,64,8
+    LTEXT           "Static",IDC_EDITNAME,72,27,120,13,SS_SUNKEN,
+                    WS_EX_STATICEDGE
+    LTEXT           "Sub-Module File Information:",IDC_STATIC,4,44,131,9
+    EDITTEXT        IDC_EDITPATH,4,55,188,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Browse",IDC_BTNBROWSE,203,55,50,14
+    LTEXT           "Sub-Module Input Parameter List:",IDC_STATIC,4,75,188,8
+    CONTROL         "",IDC_INPUTLIST,"SysListView32",LVS_REPORT | 
+                    LVS_SHOWSELALWAYS | LVS_SHAREIMAGELISTS | LVS_ALIGNLEFT | 
+                    WS_BORDER | WS_TABSTOP,4,86,190,50
+    PUSHBUTTON      "Edit",IDC_BTNEDIT,203,86,50,14
+    LTEXT           "Sub-Module Input/Output Parameter List:",IDC_STATIC,4,
+                    141,188,8
+    CONTROL         "",IDC_GLOBALLIST,"SysListView32",LVS_REPORT | 
+                    LVS_SHOWSELALWAYS | LVS_SHAREIMAGELISTS | LVS_ALIGNLEFT | 
+                    WS_BORDER | WS_TABSTOP,4,152,190,50
+    PUSHBUTTON      "Edit",IDC_BTNEDIT2,203,152,50,14
+    LTEXT           "Sub-Module Output Parameter List:",IDC_STATIC,4,207,188,
+                    8
+    CONTROL         "",IDC_OUTPUTLIST,"SysListView32",LVS_REPORT | 
+                    LVS_SHOWSELALWAYS | LVS_SHAREIMAGELISTS | LVS_ALIGNLEFT | 
+                    WS_BORDER | WS_TABSTOP,4,218,190,50
+    PUSHBUTTON      "Edit",IDC_BTNEDIT3,203,218,50,14
+    PUSHBUTTON      "Close",IDOK,211,260,50,14
+END
+
+IDD_DLGPARAMAP DIALOGEX 0, 0, 266, 271
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Sub-Moudle Parameter Mapping Editor"
+FONT 8, "Microsoft Sans Serif", 400, 0, 0x1
+BEGIN
+    GROUPBOX        "Sub-Module Parameter",IDC_STATIC,5,6,256,44
+    LTEXT           "Name:",IDC_STATIC,12,18,47,8
+    LTEXT           "Static",IDC_EDITNAME,12,29,110,13,0,WS_EX_STATICEDGE
+    LTEXT           "Type:",IDC_STATIC,135,18,47,8
+    LTEXT           "Static",IDC_EDITTYPE,136,29,118,13,0,WS_EX_STATICEDGE
+    GROUPBOX        "Mapping Variable",IDC_STATIC,5,54,256,44
+    LTEXT           "Name:",IDC_STATIC,12,66,47,8
+    EDITTEXT        IDC_EDITVAR,12,76,241,14,ES_AUTOHSCROLL
+    LTEXT           "Input Parameter List:",IDC_STATIC,5,104,79,8
+    CONTROL         "",IDC_INPUTLIST,"SysListView32",LVS_REPORT | 
+                    LVS_SHOWSELALWAYS | LVS_SHAREIMAGELISTS | LVS_ALIGNLEFT | 
+                    WS_BORDER | WS_TABSTOP,5,115,125,50
+    LTEXT           "Input/Output Parameter List:",IDC_STATIC,5,169,99,8
+    CONTROL         "",IDC_GLOBALLIST,"SysListView32",LVS_REPORT | 
+                    LVS_SHOWSELALWAYS | LVS_SHAREIMAGELISTS | LVS_ALIGNLEFT | 
+                    WS_BORDER | WS_TABSTOP,5,180,125,50
+    LTEXT           "Output Parameter List:",IDC_STATIC,136,104,99,8
+    CONTROL         "",IDC_OUTPUTLIST,"SysListView32",LVS_REPORT | 
+                    LVS_SHOWSELALWAYS | LVS_SHAREIMAGELISTS | LVS_ALIGNLEFT | 
+                    WS_BORDER | WS_TABSTOP,136,115,125,50
+    LTEXT           "Local Variable List:",IDC_STATIC,136,169,99,8
+    CONTROL         "",IDC_LOCALLIST,"SysListView32",LVS_REPORT | 
+                    LVS_SHOWSELALWAYS | LVS_SHAREIMAGELISTS | LVS_ALIGNLEFT | 
+                    WS_BORDER | WS_TABSTOP,136,180,125,50
+    PUSHBUTTON      "Mapping It",IDC_BTNADD,5,235,50,14
+    PUSHBUTTON      "OK",IDOK,154,254,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,211,254,50,14
+END
+
+IDD_DLGINPUTNS DIALOGEX 0, 0, 186, 71
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Input Namespace"
+FONT 8, "Microsoft Sans Serif", 400, 0, 0x1
+BEGIN
+    LTEXT           "Namespace:",IDC_STATIC,7,7,64,8
+    EDITTEXT        IDC_EDITNAME,7,20,171,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "OK",IDOK,74,51,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,129,51,50,14
+END
+
+IDD_DLGCLSEDIT DIALOGEX 0, 0, 314, 204
+STYLE DS_SETFONT | WS_POPUP | WS_CAPTION | WS_THICKFRAME
+CAPTION "Class Property"
+FONT 8, "Microsoft Sans Serif", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Close",IDOK,260,187,50,14
+END
+
+IDD_DLGCLSFNEDIT DIALOGEX 0, 0, 210, 122
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "Class Member Function Property"
+FONT 8, "Microsoft Sans Serif", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Edit Function",IDC_BTNEDITCFN,152,75,50,14
+    PUSHBUTTON      "OK",IDOK,151,100,50,14
+END
+
+IDD_DLGINPUTCLS DIALOGEX 0, 0, 186, 71
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Input Class Name"
+FONT 8, "Microsoft Sans Serif", 400, 0, 0x1
+BEGIN
+    LTEXT           "Class Name:",IDC_STATIC,7,7,64,8
+    EDITTEXT        IDC_EDITNAME,7,20,171,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "OK",IDOK,74,51,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,129,51,50,14
+END
+
+IDD_CLSUSEPAGE DIALOGEX 0, 0, 300, 160
+STYLE DS_SETFONT | DS_MODALFRAME | WS_CHILD | WS_CAPTION
+CAPTION "Use and Inheritance"
+FONT 8, "Microsoft Sans Serif", 400, 0, 0x1
+BEGIN
+    GROUPBOX        "Use Namespace(s)",IDC_STATIC,6,4,134,151
+    CONTROL         "",IDC_TREENS,"SysTreeView32",TVS_HASBUTTONS | 
+                    TVS_HASLINES | TVS_LINESATROOT | TVS_DISABLEDRAGDROP | 
+                    TVS_NOTOOLTIPS | WS_BORDER | WS_GROUP | WS_TABSTOP,11,15,
+                    123,112
+    PUSHBUTTON      "Add Use",IDC_BTNADD,11,134,50,14
+    PUSHBUTTON      "Remove Use",IDC_BTNDEL,84,134,50,14
+    GROUPBOX        "Inheritance",IDC_STATIC,145,4,149,97
+    LTEXT           "Inherited From:",IDC_STATIC,151,16,126,10
+    LTEXT           "Static",IDC_TXTNAME,153,28,132,12,0,WS_EX_STATICEDGE
+    PUSHBUTTON      "Set Inheritance From Selected Class",IDC_BTNSETPARENT,
+                    153,49,131,15
+    PUSHBUTTON      "Remove Inheritance",IDC_BTNDELPARENT,153,73,131,15
+END
+
+IDD_CLSDATAPAGE DIALOGEX 0, 0, 300, 160
+STYLE DS_SETFONT | DS_MODALFRAME | WS_CHILD | WS_CAPTION
+CAPTION "Class Data Member"
+FONT 8, "Microsoft Sans Serif", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_LISTINPUT,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_ALIGNLEFT | 
+                    WS_BORDER | WS_TABSTOP,5,7,230,148
+    PUSHBUTTON      "New",IDC_BTNADD,243,16,50,14
+    PUSHBUTTON      "Edit",IDC_BTNEDIT,243,35,50,14
+    PUSHBUTTON      "Delete",IDC_BTNDEL,243,54,50,14
+END
+
+IDD_CLSFNPAGE DIALOGEX 0, 0, 300, 160
+STYLE DS_SETFONT | DS_MODALFRAME | WS_CHILD | WS_CAPTION
+CAPTION "Class Function Member"
+FONT 8, "Microsoft Sans Serif", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_LISTINPUT,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_ALIGNLEFT | 
+                    WS_BORDER | WS_TABSTOP,5,7,230,148
+    PUSHBUTTON      "New",IDC_BTNADD,243,16,50,14
+    PUSHBUTTON      "Edit Prototype",IDC_BTNEDIT,243,35,50,14
+    PUSHBUTTON      "Function Logic",IDC_BTNEDIT2,243,54,50,14
+    PUSHBUTTON      "Delete",IDC_BTNDEL,243,91,50,14
+END
+
+IDD_DLGDATATYPE DIALOGEX 0, 0, 281, 241
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "New Class Member"
+FONT 8, "Microsoft Sans Serif", 400, 0, 0x0
+BEGIN
+    GROUPBOX        "Data Type List",IDC_DTYPEGRP,6,1,134,181
+    CONTROL         "",IDC_TREEDATA,"SysTreeView32",TVS_HASBUTTONS | 
+                    TVS_HASLINES | TVS_LINESATROOT | TVS_DISABLEDRAGDROP | 
+                    TVS_NOTOOLTIPS | WS_BORDER | WS_GROUP | WS_TABSTOP,11,12,
+                    123,130
+    PUSHBUTTON      "Set Selection As Type",IDC_BTNADDTYPE,55,145,78,14
+    PUSHBUTTON      "Set Array Element Type",IDC_BTNADDTYPE2,55,163,78,14
+    LTEXT           "Data Type:",IDC_TEXTTYPE,146,4,65,8
+    LTEXT           "",IDC_TXTTYPE,146,13,130,13,0,WS_EX_STATICEDGE
+    LTEXT           "Data Name:",IDC_TEXTNAME,146,32,65,8
+    EDITTEXT        IDC_EDITNAME,145,41,130,14,ES_AUTOHSCROLL
+    LTEXT           "Array Size:",IDC_ARRAYSIZE,146,60,104,8
+    EDITTEXT        IDC_EDITARYSIZE,145,69,130,14,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "Data Default Value:",IDC_STATICVDV,146,88,101,8
+    EDITTEXT        IDC_EDITVALUE,145,97,130,14,ES_AUTOHSCROLL
+    LTEXT           "Array Element Data Type:",IDC_TEXTARYTYPE,146,116,121,8
+    LTEXT           "",IDC_TXTARYETYPE,146,125,130,13,0,WS_EX_STATICEDGE
+    GROUPBOX        "Array Element Default Value:",IDC_CAPAEDVAL,146,146,131,
+                    90
+    CONTROL         "",IDC_LISTAEVAL,"SysListView32",LVS_REPORT | 
+                    LVS_SHOWSELALWAYS | LVS_ALIGNLEFT | WS_BORDER | 
+                    WS_TABSTOP,151,157,120,72
+    PUSHBUTTON      "Update Array",IDC_UPDATE,7,185,54,14
+    PUSHBUTTON      "Set Array Vaue",IDC_SETVALUE,85,185,54,14
+    PUSHBUTTON      "Clean Array",IDC_BTNCLEAN,47,203,54,14
+    PUSHBUTTON      "OK",IDOK,7,222,54,14
+    PUSHBUTTON      "Cancel",IDCANCEL,85,222,54,14
+END
+
+IDD_DLGFNPROTOTYPE DIALOGEX 0, 0, 191, 201
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Class Function Prototype"
+FONT 8, "Microsoft Sans Serif", 400, 0, 0x0
+BEGIN
+    LTEXT           "Name:",IDC_STATIC,9,8,22,8
+    EDITTEXT        IDC_EDITNAME,35,6,131,14,ES_AUTOHSCROLL
+    LTEXT           "Return Type:",IDC_STATIC,9,24,48,8
+    LTEXT           "Static",IDC_TXTTYPE,10,34,73,14,0,WS_EX_STATICEDGE
+    PUSHBUTTON      "Set Return Type",IDC_BTNADDTYPE,104,33,62,14
+    GROUPBOX        "Parameter List",IDC_STATIC,3,54,184,124
+    CONTROL         "",IDC_LISTINPUT,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_ALIGNLEFT | 
+                    WS_BORDER | WS_TABSTOP,8,65,117,109
+    PUSHBUTTON      "New",IDC_BTNADD,131,66,50,14
+    PUSHBUTTON      "Edit",IDC_BTNEDIT,131,85,50,14
+    PUSHBUTTON      "Delete",IDC_BTNDEL,131,104,50,14
+    PUSHBUTTON      "OK",IDOK,75,184,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,133,184,50,14
+END
+
+IDD_DLGPARATYPESEL DIALOGEX 0, 0, 281, 158
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Parameter Type Selection"
+FONT 8, "Microsoft Sans Serif", 400, 0, 0x1
+BEGIN
+    GROUPBOX        "Parameter Type List",IDC_DTYPEGRP,6,1,134,150
+    CONTROL         "",IDC_TREEDATA,"SysTreeView32",TVS_HASBUTTONS | 
+                    TVS_HASLINES | TVS_LINESATROOT | TVS_DISABLEDRAGDROP | 
+                    TVS_NOTOOLTIPS | WS_BORDER | WS_GROUP | WS_TABSTOP,11,12,
+                    123,113
+    PUSHBUTTON      "Set Selection As Type",IDC_BTNADDTYPE,55,130,78,14
+    LTEXT           "Parameter Type:",IDC_TEXTTYPE,146,4,65,8
+    LTEXT           "",IDC_TXTTYPE,146,13,130,13,0,WS_EX_STATICEDGE
+    LTEXT           "Parameter Name:",IDC_TEXTNAME,146,32,65,8
+    EDITTEXT        IDC_EDITNAME,145,41,130,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Clean Paramter Type",IDC_BTNCLEAN,170,100,78,14
+    PUSHBUTTON      "OK",IDOK,145,137,54,14
+    PUSHBUTTON      "Cancel",IDCANCEL,222,137,54,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904e4"
+        BEGIN
+            VALUE "CompanyName", "TODO: <Company name>"
+            VALUE "FileDescription", "TODO: <File description>"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "TDRBuilder.exe"
+            VALUE "LegalCopyright", "TODO: (c) <Company name>.  All rights reserved."
+            VALUE "OriginalFilename", "TDRBuilder.exe"
+            VALUE "ProductName", "TODO: <Product name>"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1252
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_DLGCMPEDIT2, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 238
+    END
+
+    IDD_DLGINPUTNS, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 69
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDP_OLE_INIT_FAILED     "OLE initialization failed.  Make sure that the OLE libraries are the correct version."
+END
+
+STRINGTABLE 
+BEGIN
+    IDR_MAINFRAME           "TDRBuilder"
+    IDR_VxBuilderTYPE       "\nVxBuilder\nVxBuilder\n\n\nVxBuilder.Document\nVxBuilder.Document"
+    IDR_VXMODULE            "\nVxModule\nVxModule\n\n\nVxBuilder.Document\nVxModule Document"
+    IDR_VXCLASS             "\nVxClass\nVxClass\n\n\nVxBuilder.Document\nVxClass Document"
+END
+
+STRINGTABLE 
+BEGIN
+    IDR_VXCLSFN             "\nVxClass Function\nVxClass Function\n\n\nVxBuilder.Document\nVxClass Function Document"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "TDRBuilder"
+    AFX_IDS_IDLEMESSAGE     "For Help, press F1"
+    AFX_IDS_HELPMODEMESSAGE "Select an object on which to get Help"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "OVR"
+    ID_INDICATOR_REC        "REC"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_FILE_NEW             "Create a new document\nNew"
+    ID_FILE_OPEN            "Open an existing document\nOpen"
+    ID_FILE_CLOSE           "Close the active document\nClose"
+    ID_FILE_SAVE            "Save the active document\nSave"
+    ID_FILE_SAVE_AS         "Save the active document with a new name\nSave As"
+    ID_FILE_PAGE_SETUP      "Change the printing options\nPage Setup"
+    ID_FILE_PRINT_SETUP     "Change the printer and printing options\nPrint Setup"
+    ID_FILE_PRINT           "Print the active document\nPrint"
+    ID_FILE_PRINT_PREVIEW   "Display full pages\nPrint Preview"
+    ID_FILE_UPDATE          "Update the container to show any changes\nUpdate"
+    ID_FILE_SAVE_COPY_AS    "Save a copy of the active document with a new name\nSave Copy"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_APP_ABOUT            "Display program information, version number and copyright\nAbout"
+    ID_APP_EXIT             "Quit the application; prompts to save documents\nExit"
+    ID_HELP_INDEX           "Opens Help\nHelp Topics"
+    ID_HELP_FINDER          "List Help topics\nHelp Topics"
+    ID_HELP_USING           "Display instructions about how to use help\nHelp"
+    ID_CONTEXT_HELP         "Display help for clicked on buttons, menus and windows\nHelp"
+    ID_HELP                 "Display help for current task or command\nHelp"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_FILE_MRU_FILE1       "Open this document"
+    ID_FILE_MRU_FILE2       "Open this document"
+    ID_FILE_MRU_FILE3       "Open this document"
+    ID_FILE_MRU_FILE4       "Open this document"
+    ID_FILE_MRU_FILE5       "Open this document"
+    ID_FILE_MRU_FILE6       "Open this document"
+    ID_FILE_MRU_FILE7       "Open this document"
+    ID_FILE_MRU_FILE8       "Open this document"
+    ID_FILE_MRU_FILE9       "Open this document"
+    ID_FILE_MRU_FILE10      "Open this document"
+    ID_FILE_MRU_FILE11      "Open this document"
+    ID_FILE_MRU_FILE12      "Open this document"
+    ID_FILE_MRU_FILE13      "Open this document"
+    ID_FILE_MRU_FILE14      "Open this document"
+    ID_FILE_MRU_FILE15      "Open this document"
+    ID_FILE_MRU_FILE16      "Open this document"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_NEXT_PANE            "Switch to the next window pane\nNext Pane"
+    ID_PREV_PANE            "Switch back to the previous window pane\nPrevious Pane"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_WINDOW_NEW           "Open another window for the active document\nNew Window"
+    ID_WINDOW_ARRANGE       "Arrange icons at the bottom of the window\nArrange Icons"
+    ID_WINDOW_CASCADE       "Arrange windows so they overlap\nCascade Windows"
+    ID_WINDOW_TILE_HORZ     "Arrange windows as non-overlapping tiles\nTile Windows"
+    ID_WINDOW_TILE_VERT     "Arrange windows as non-overlapping tiles\nTile Windows"
+    ID_WINDOW_SPLIT         "Split the active window into panes\nSplit"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_EDIT_CLEAR           "Erase the selection\nErase"
+    ID_EDIT_CLEAR_ALL       "Erase everything\nErase All"
+    ID_EDIT_COPY            "Copy the selection and put it on the Clipboard\nCopy"
+    ID_EDIT_CUT             "Cut the selection and put it on the Clipboard\nCut"
+    ID_EDIT_FIND            "Find the specified text\nFind"
+    ID_EDIT_PASTE           "Insert Clipboard contents\nPaste"
+    ID_EDIT_REPEAT          "Repeat the last action\nRepeat"
+    ID_EDIT_REPLACE         "Replace specific text with different text\nReplace"
+    ID_EDIT_SELECT_ALL      "Select the entire document\nSelect All"
+    ID_EDIT_UNDO            "Undo the last action\nUndo"
+    ID_EDIT_REDO            "Redo the previously undone action\nRedo"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_VIEW_TOOLBAR         "Show or hide the toolbar\nToggle ToolBar"
+    ID_VIEW_STATUS_BAR      "Show or hide the status bar\nToggle StatusBar"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_SCSIZE          "Change the window size"
+    AFX_IDS_SCMOVE          "Change the window position"
+    AFX_IDS_SCMINIMIZE      "Reduce the window to an icon"
+    AFX_IDS_SCMAXIMIZE      "Enlarge the window to full size"
+    AFX_IDS_SCNEXTWINDOW    "Switch to the next document window"
+    AFX_IDS_SCPREVWINDOW    "Switch to the previous document window"
+    AFX_IDS_SCCLOSE         "Close the active window and prompts to save the documents"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_SCRESTORE       "Restore the window to normal size"
+    AFX_IDS_SCTASKLIST      "Activate Task List"
+    AFX_IDS_MDICHILD        "Activate this window"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_PREVIEW_CLOSE   "Close print preview mode\nCancel Preview"
+END
+
+STRINGTABLE 
+BEGIN
+    IDM_FILE_NEWMODULE      "New Module\nNew Module"
+    IDM_FILE_NEWCLASS       "New Class\nNew Class"
+END
+
+STRINGTABLE 
+BEGIN
+    IDC_TBARCOMB            "Zoom\nZoom"
+    IDM_VIEW_GRID           "Background Grid\nGrid"
+    IDM_VIEW_SHADOW         "Block Shadow\nShadow"
+END
+
+STRINGTABLE 
+BEGIN
+    IDM_LINKERTAIL90        "Rotate tail 90'"
+    IDM_LINKERTAIL270       "Rotate tail 270'"
+    IDM_LINKERTURN90        "Rotate arrow 90'"
+    IDM_LINKERTURN180       "Rotate arrow 180'"
+    IDM_LINKERTURN270       "Rotate arrow 270'"
+    IDM_VIEW_TOOLBOX        "Tool Box Panel\nToolbox"
+    IDM_VIEW_VARIABLE       "Variable List Panel\nVariable List"
+    IDM_VIEW_OUTPUT         "Output Panel\nOutput"
+    IDM_VIEW_TOOLTIPS       "Tooltip Display\nTooltip"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_PUPANELTITLE        "PU Tool Panel"
+    IDS_PROPERTYMENU        "P&roperty"
+    IDS_VARPANELTITLE       "Variable List Panel"
+    IDS_OUTPUTPAENLTITLE    "Output"
+    IDS_VARNAMEEMPTY        "The parameter/variable name is empty!"
+    IDS_VARNAMESAME         "The parameter/variable with same name exists!"
+    IDS_NOVARTYPESEL        "No proper parameter/variable type is selected!"
+    IDS_INVALIDINPUT        "The invalid data value input!"
+    IDS_BYTEOUTRANGE        "The byte type parameter/variable default value is out of the range from 0 to 255!"
+    IDS_INVALIDBOOL         "The boolean type parameter/variable default value is invalid!"
+    IDS_DELETINPUTVAR       "Do you want to delete the input parameter %s? The deletion might make the module unworkable!"
+    IDS_NOTARRAYTYPE        "The data type is not array!"
+    IDS_ARRAYCHANGE         "The array status is change! Please update the array by clicking the <Update Array> button."
+    IDS_ARRAYSIZEINVALID    "The array size is invalid!"
+    IDS_AETYPEINVALID       "The array element type is invalid!"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_CMPSIGNINVALID      "No vaild comparison is selected!"
+    IDS_CMPLGRINVALID       "No pre-logical relation is selected!"
+    IDS_EXPYNTAXERROR       "The expression has syntax errors or wrong variable declarations!"
+    IDS_EMPTYEXP            "The expression is empty!"
+    IDS_DELETEEQ            "Do you want to delete the selected equation? The deletion might make the module unworkable!"
+    IDS_ARRAYVARLISTFMT     "<array>%s"
+    IDS_EQLEFTINVALID       "The left variable of equation is invalid!"
+    IDS_EMPTYPATH           "The path is empty!"
+    IDS_EMPTYNAME           "The name is empty!"
+    IDS_XVSMATHINVALID      "The string xvsmath is reserved!"
+    IDS_FAILCREATEFILE      "Can't create destination file!"
+    IDS_FAILFINDRES         "Can not find the reource"
+    IDS_FAILLOADRES         "Can not load the resource data"
+    IDS_FAILLOCKRES         "Can not lock the memory for resource data"
+    IDS_FAILOPENFILE        "Errors happened during loading the files!"
+    IDS_NOVALIDVAR          "No vaild variable is selected!"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_NOVALIDNS           "Please input a vaild namespace!"
+    IDS_NOVALIDCLSNAME      "Please input a vaild class name!"
+    IDS_NOVALIDCNAMEERR     "No vaild class name is given, failed to add new class!"
+    IDS_CLSNAMEUSED         "The class with name %s is existed in current namespace, please input another class name!"
+    IDS_SAMENSEDITING       "The same namespace is openning in editor!"
+    IDS_BUILDINTYPE         "Build-In Type"
+    IDS_ARRAYTYPE           "Array Type"
+    IDS_AEDTNOTARY          "The array type cannot be used as array element data type!"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_NOAESELECTED        "No array element is selected!"
+    IDS_DELETEBOTHVAR       "Do you want to delete the input/output parameter %s? The deletion might make the module unworkable!"
+    IDS_DELETEOUTPUTVAR     "Do you want to delete the output parameter %s? The deletion might make the module unworkable!"
+    IDS_DELETELOCALVAR      "Do you want to delete the local variable %s? The deletion might make the module unworkable!"
+    IDS_INVALIDPUIDANDMAN   "No valid PU ID or module object is set!"
+    IDS_DELETEINPUTVAR      "Do you want to delete the input parameter %s? The deletion might make the module unworkable!"
+    IDS_VARIABLETITLE       "Variable"
+    IDS_TYPEELEMENTTITLE    "Type/Element"
+    IDS_OPERATORTITLE       "Operator"
+    IDS_EXAMPLETITLE        "Example"
+    IDS_BOOLEANCONST        "Boolean"
+    IDS_BOOLEANTRUE         "true"
+    IDS_BOOLEANFALSE        "false"
+    IDS_DELETECMP           "Do you want to delete the selected comparison? The deletion might make the module unworkable!"
+    IDS_CMPLEFTINVALID      "The left expression of comparison is invalid!"
+    IDS_CMPRIGHTINVALID     "The right expression of comparison is invalid!"
+END
+
+STRINGTABLE 
+BEGIN
+    IDM_MODULE_COMPILE      "Compile\nCompile"
+    IDM_MODULE_RUN          "Run Module\nRun"
+    IDM_MODULE_STOP         "Stop Module\nStop"
+    IDM_MODULE_ANALYSE      "Analyze Module Step by Step\nAnalyze Module"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#include "res\VxBuilder.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#include "afxprint.rc"       // printing/print preview resources
+#include "afxolesv.rc"       // OLE server resources
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

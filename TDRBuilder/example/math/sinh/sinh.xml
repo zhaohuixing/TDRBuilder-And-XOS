@@ -1,0 +1,8 @@
+<?xml version = "1.0" ?><!-- /*Begin Test*/ --><module name = "ctg" date = "Tue Mar 22 16:11:51 2005
+">
+<input>
+<variable type = "float" name = "iv1" initial_value = "0.000000e+000" final_value = "5756451037811920900.000000"/>
+</input><global/>
+<local>
+<variable type = "float" name = "lv1" initial_value = "0.000000e+000" final_value = "43.890000"/>
+</local></module><!-- /*End Test*/ -->

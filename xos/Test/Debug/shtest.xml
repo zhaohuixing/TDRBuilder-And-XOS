@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Shell>
+	<Command Operation="Del" Input="C:\TEMP\*.*" >
+	</Command>
+	<Command Operation="Copy" Input="C:\XOS\Test\cat.jpg" Output="C:\temp\cat.jpg">
+	</Command>
+	<Command Operation="Copy" Input="C:\XOS\Test\stdafx.cpp" Output="C:\temp\stdafx.cpp">
+	</Command>
+	<Command Operation="Copy" Input="C:\XOS\Test\stdafx.h" Output="C:\temp\stdafx.h">
+	</Command>
+	<Command Operation="Copy" Input="C:\XOS\Test\XLServ.cpp" Output="C:\temp\XLServ.cpp">
+	</Command>
+	<Command Operation="Copy" Input="C:\XOS\Test\XLServ.h" Output="C:\temp\XLServ.h">
+	</Command>
+</Shell>

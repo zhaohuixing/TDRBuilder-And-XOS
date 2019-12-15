@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Form>
+	<Button Name="Button1" Text="Test Button" Left="20" Right="120" Top="40" Bottom="80">
+	</Button>
+	<Button Name="Button2" Text="Convert" Left="140" Right="240" Top="40" Bottom="80">
+	</Button>
+	<Button Name="SetTitle" Text="Set Title" Left="260" Right="360" Top="40" Bottom="80">
+	</Button>
+	<Button Name="LoadBtn" Text="Load" Left="380" Right="480" Top="40" Bottom="80">
+	</Button>
+	<EditBox Name="Edit1" Text="Edit" Left="140" Right="240" Top="100" Bottom="120">
+	</EditBox>
+	<EditBox Name="EditTitle" Text="Edit" Left="260" Right="360" Top="140" Bottom="160">
+	</EditBox>
+	<Text Name="Text1" Text="The is the sample of text output. Hello World!" Left="140" Right="240" Top="140" Bottom="260">
+	</Text>
+	<Text Name="TimerText" Text="" Left="20" Right="480" Top="310" Bottom="330">
+	</Text>
+	<Image Name="Image1" Url="C:\xos\Test\cat.jpg" Left="490" Right="790" Top="40" Bottom="300">
+	</Image>
+	<Timer Name="TimerCtrl" TimerStep="1000">
+	</Timer>
+	<MainMenu Name="Main Menu">
+		<SubMenu Name="Menu 1" Text="Menu 1">
+        		<MENUITEM Name="Menu Item 11" Text="Test Menu">
+			</MENUITEM>
+        		<MENUITEM Name="Menu Item 12" Text="Convert">
+			</MENUITEM>
+		</SubMenu>
+		<SubMenu Name="Menu 2" Text="Menu 2">
+        		<MENUITEM Name="Menu Item 21" Text="Set Title">
+			</MENUITEM>
+        		<MENUITEM Name="Menu Item 22" Text="Load Image">
+			</MENUITEM>
+		</SubMenu>
+	</MainMenu>
+</Form>

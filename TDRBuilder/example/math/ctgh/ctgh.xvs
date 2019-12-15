@@ -1,0 +1,47 @@
+<?xml version = "1.0" ?><!-- /*Begin Test*/ --><xvs version = "1.0">
+<module name = "ctgh" date = "Tue Mar 22 16:17:41 2005
+">
+<processor name = "Processor" id = "0" type = "3">
+<dimension>
+<center x = "446" y = "211"/>
+<size x = "40" y = "20"/>
+</dimension></processor><entry>
+<dimension>
+<center x = "450" y = "40"/>
+<size x = "40" y = "20"/>
+</dimension></entry><initialize>
+<dimension>
+<center x = "450" y = "120"/>
+<size x = "40" y = "20"/>
+</dimension></initialize><exit>
+<dimension>
+<center x = "450" y = "300"/>
+<size x = "40" y = "20"/>
+</dimension></exit><link id = "-5">
+<dimension>
+<center x = "390" y = "270"/>
+<size x = "40" y = "20"/>
+</dimension><points>
+<point x = "450" y = "100"/>
+<point x = "450" y = "60"/>
+</points><headlink id = "-3"/>
+<taillink id = "-2"/>
+</link><link id = "-6">
+<dimension>
+<center x = "280" y = "184"/>
+<size x = "40" y = "20"/>
+</dimension><points>
+<point x = "450" y = "191"/>
+<point x = "450" y = "140"/>
+</points><headlink id = "0"/>
+<taillink id = "-3"/>
+</link><link id = "-7">
+<dimension>
+<center x = "231" y = "223"/>
+<size x = "40" y = "20"/>
+</dimension><points>
+<point x = "447" y = "279"/>
+<point x = "447" y = "232"/>
+</points><headlink id = "-4"/>
+<taillink id = "0"/>
+</link></module></xvs><!-- /*End Test*/ -->

@@ -1,0 +1,170 @@
+//2005/02/03
+#ifndef __XVUI_UIDEFS_H__
+#define __XVUI_UIDEFS_H__
+
+#include <vector>
+
+//#define CVSBVIEWLENGTH		10000
+//#define XVUI_GRIDSIZE		10080
+#define CVSBVIEWLENGTH		5000
+#define XVUI_GRIDSIZE		5040
+
+#define XVUI_ENODE_CX		40
+#define XVUI_ENODE_CY		20
+#define XVUI_ENODE_MINX		8
+#define XVUI_ENODE_MINY		4
+#define XVUI_ENODE_OFF		20
+#define XVUI_PLGRAM_OFF		40
+#define XVUI_PLGRAM_RATION	0.5
+#define XVUI_ENODE_SHADOWX	5
+#define XVUI_ENODE_SHADOWY	5
+#define XVUI_TRI_SHADOWX	5
+#define XVUI_TRI_SHADOWY	3
+
+#define XVUI_BLOCK_FONTSIZE	12 
+
+#define XVUI_ARROW_CX		12
+#define XVUI_ARROW_CY		6
+#define XVUI_ARC_CX			3
+#define XVUI_ARC_CY			6
+
+
+#define XVUI_BLOCK_LINERGB			RGB(0, 0, 0)
+#define XVUI_BLOCK_FILLRGB			RGB(255, 255, 160)
+#define XVUI_BLOCK_ACTIVERGB		RGB(127, 255, 200)
+#define XVUI_BLOCK_DEBUGRGB			RGB(127, 127, 255)
+#define XVUI_ENTRY_ACTIVERGB		RGB(200, 0, 200)
+#define XVUI_INTI_ACTIVERGB			RGB(0, 255, 255)
+#define XVUI_EXIT_ACTIVERGB			RGB(200, 0, 200)
+#define XVUI_SHADOW_COLOR			RGB(230, 230, 230)
+#define XVUI_LINKER_LINERGB			RGB(0, 200, 0)
+#define XVUI_TRACKER_RGB			RGB(255, 96, 255)
+#define XVUI_TRACKER_LIGHT			RGB(255, 255, 255)
+#define XVUI_TRACKER_DARK			RGB(127, 15, 127)
+#define XVUI_CLASS_FILLRGB			RGB(214, 214, 64)
+
+#define XVUI_CFNBLOCK_FILLRGB		RGB(160, 255, 255)
+#define XVUI_CFNBLOCK_ACTIVERGB		RGB(127, 200, 255)
+#define XVUI_CFNBLOCK_DEBUGRGB		RGB(255, 127, 127)
+#define XVUI_CFNENTRY_ACTIVERGB		RGB(200, 200, 0)
+#define XVUI_CFNINTI_ACTIVERGB		RGB(255, 0, 255)
+#define XVUI_CFNEXIT_ACTIVERGB		RGB(200, 200, 0)
+
+#define XVUI_BLOCK_YESRGB			RGB(32, 200, 32)
+#define XVUI_BLOCK_NORGB			RGB(255, 64, 64)
+
+#define XVUI_BLOCK_CORNERRGB		RGB(255, 64, 64)
+
+#define XVUI_LINE_ACTIVERGB			RGB(255, 16, 16)
+
+#define XVUI_LINK_CONNECTRGB		RGB(32, 200, 32)
+
+#define XVUI_CLSLINK_COLOR			RGB(255, 255, 255)
+
+#define XVUI_GRID_DEFAULTRGB		RGB(175, 175, 175)	
+#define XVUI_GRID_UNITRGB			RGB(200, 200, 200)	
+#define XVUI_GRID_ONERGB			RGB(225, 225, 225)	
+
+#define XVUI_BLOCK_HANDLES			8
+#define XVUI_BLOCK_LINKS			4
+#define XVUI_TRI_LINKS				3
+
+#define XVUI_ZOOMS				7	
+#define XVUI_ZOOM_DEFAULT		3	
+#define XVUI_SCROLLRANGE		1000	
+
+static double xvui_inverse[XVUI_ZOOMS] =
+{
+	1.0, 1.0, 1.0, 1.0, 1.5, 2.0, 4.0, 
+};
+
+static double xvui_zoomrate[XVUI_ZOOMS] =
+{
+	4.0, 2.0, 1.5, 1, 0.75, 0.5, 0.25, 
+};
+
+static wchar_t* xvui_zoomstr[XVUI_ZOOMS] =
+{
+	L"400%", L"200%", L"150%", L"100%", L"75%", L"50%", L"25%", 
+};
+
+static int xvui_gridsize[XVUI_ZOOMS] =
+{
+	30, 60, 80, 120, 160, 240, 480, 
+};
+
+static int xvui_gridunit[XVUI_ZOOMS] =
+{
+	6, 12, 16, 24, 32, 48, 96, 
+};
+
+static int xvui_gridone[XVUI_ZOOMS] =
+{
+	3, 6, 8, 12, 16, 24, 48, 
+};
+
+static int xvui_ztsize[XVUI_ZOOMS] =
+{
+	1, 2, 3, 4, 6, 8, 16, 
+};
+
+typedef enum _enXVUI_GRAPHSTATE 
+{
+	XGRAPH_NORMAL,
+	XGRAPH_SELECTED, 
+	XGRAPH_ACTIVE, 
+	XGRAPH_ACTIVEDEBUG,	  //Not public use, only for selected block switch to debug state
+	XGRAPH_DEBUG,
+}enXVUI_GRAPHSTATE;
+
+typedef enum _enXVUI_DRAGTYPE
+{
+	enDRAG_NONE = 0,
+	enDRAG_PUBLOCK,
+	enDRAG_PUEDGE,
+	enDRAG_LINK,
+} enXVUI_DRAGTYPE;
+
+typedef enum _enXVUI_MOUSESTATE
+{
+	enMOUSE_NONE = 0,
+	enMOUSE_LDOWN,
+	enMOUSE_LMOVE,
+} enXVUI_MOUSESTATE;
+
+typedef enum _enXVUI_FROMNODETYPE
+{
+	enFROM_NORMAL = 0,
+	enFROM_LOGICNO,
+	enFROM_LOGICYES,
+} enXVUI_FROMNODETYPE;
+
+typedef enum _enXVUI_TOOLTYPE
+{
+	enTT_MDIAGRAM,
+	enTT_MCLASS,
+} enXVUI_TOOLTYPE;
+
+
+#define XVUI_ARROW_ROTATE90		0
+#define XVUI_ARROW_ROTATE180	1
+#define XVUI_ARROW_ROTATE270	2
+
+#define XVUI_DIR_NS				0
+#define XVUI_DIR_EW				1
+#define XVUI_DIR_SN				2
+#define XVUI_DIR_WE				3
+
+#define XVUI_LINKEDGE_NONE	-1
+#define XVUI_LINKEDGE_HEAD	-2
+#define XVUI_LINKEDGE_TAIL	-3
+
+#define XVUI_DOCVIEW_PAINT				1
+#define XVUI_DOCVIEW_PAINTRECT			2
+#define XVUI_DOCVIEW_VARUPDATE			3
+#define XVUI_DOCVIEW_SHOWCLEANOUTPUT	4
+#define XVUI_DOCVIEW_CMPLOUTPUT			5
+#define XVUI_DOCVIEW_SHOWVARLIST		6
+#define XVUI_DOCVIEW_PASTEBLOCK			7
+
+#endif
