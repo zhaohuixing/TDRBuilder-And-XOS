@@ -1,0 +1,22 @@
+<<--/*Begin Test*/-->>
+[Module]
+Name=new1
+Time=Sun Feb 27 20:56:57 2005
+
+[Input Variables]
+	Type=float	Name=iv1	Initial Value=478.000000	Final Value=6.000000
+	Type=boolean	Name=iv2	Initial Value=true	Final Value=false
+[End]
+[Global Variables]
+	Type=Array	Name=gv1	Array Element Type=float	Array Size=5
+		Name=gv1[0]	Initial Value=0.000000e+000	Final Value=0.000000e+000
+		Name=gv1[1]	Initial Value=-1.000000	Final Value=-1.000000
+		Name=gv1[2]	Initial Value=0.000000e+000	Final Value=0.000000e+000
+		Name=gv1[3]	Initial Value=0.000000e+000	Final Value=0.000000e+000
+		Name=gv1[4]	Initial Value=1.000000	Final Value=1.000000
+	Type=integer	Name=gv2	Initial Value=34	Final Value=9
+	Type=boolean	Name=gv3	Initial Value=false	Final Value=true
+	Type=byte	Name=gv4	Initial Value=0	Final Value=0
+[End]
+[End of Module]
+<<--/*End Test*/-->>

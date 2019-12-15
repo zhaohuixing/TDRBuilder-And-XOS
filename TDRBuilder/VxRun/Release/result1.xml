@@ -1,0 +1,20 @@
+<?xml version = "1.0" ?><!-- /*Begin Test*/ --><module name = "new1" date = "Sun Feb 27 21:01:04 2005
+">
+<input>
+<variable type = "float" name = "iv1" initial_value = "4.500000" final_value = "6.000000"/>
+<variable type = "boolean" name = "iv2" initial_value = "true" final_value = "false"/>
+<variable type = "integer" name = "iv3" initial_value = "1244224" final_value = "0"/>
+<variable type = "boolean" name = "iv4" initial_value = "true" final_value = "false"/>
+<variable type = "float" name = "iv5" initial_value = "4.500000" final_value = "0.000000e+000"/>
+<variable type = "byte" name = "iv6" initial_value = "64" final_value = "0"/>
+</input><global>
+<array name = "gv1">
+<arrayelement index = "0" initial_value = "0.000000e+000" final_value = "0.000000e+000"/>
+<arrayelement index = "1" initial_value = "-1.000000" final_value = "-1.000000"/>
+<arrayelement index = "2" initial_value = "0.000000e+000" final_value = "0.000000e+000"/>
+<arrayelement index = "3" initial_value = "0.000000e+000" final_value = "0.000000e+000"/>
+<arrayelement index = "4" initial_value = "1.000000" final_value = "1.000000"/>
+</array><variable type = "integer" name = "gv2" initial_value = "34" final_value = "9"/>
+<variable type = "boolean" name = "gv3" initial_value = "false" final_value = "true"/>
+<variable type = "byte" name = "gv4" initial_value = "0" final_value = "0"/>
+</global></module><!-- /*End Test*/ -->
