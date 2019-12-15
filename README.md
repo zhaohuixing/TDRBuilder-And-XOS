@@ -2,7 +2,7 @@ Note: All of the source code was developed between year 2000 and 2005 with Visua
 
 The code segment contains two parts of open source code which are based from same idea of building an OOP visual computing system
 
-# 1. TDRBuilder:a Thinking-Drawing-Running (TDR) concept base computing software bridging the gap between desing and software programming.
+# 1. TDRBuilder:a Thinking-Drawing-Running (TDR) concept base computing software bridging the gap between design and software programming.
 
 In summer 2000, after many years of working in various industrial software projects, a thought came into my mind that the process of software product development should be more independent from programming technique so that more technical professional without specific programming skill can design and create the software application to implement their technical requirement by themselves.
 
