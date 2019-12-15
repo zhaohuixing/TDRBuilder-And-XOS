@@ -4,7 +4,7 @@ The code segment contains two parts of open source code which are based from sam
 
 # 1. TDRBuilder:a Thinking-Drawing-Running (TDR) concept base computing software bridging the gap between design and software programming.
 
-In summer 2000, after many years of working in various industrial software projects, a thought came into my mind that the process of software product development should be more independent from programming technique so that more technical professional without specific programming skill can design and create the software application to implement their technical requirement by themselves.
+In summer 2000, after many years of software development, a thought came into my mind that the software product development should be more independent from programming technique so that more technical professional without specific programming skill can design and create the software application easily.
 
 With such idea, I develop the technology with concept of TDR (Thinking-Drawing-Running), which bridge the gap between current CASE tools and software programming tools.
 
